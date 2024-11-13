@@ -14,8 +14,8 @@ os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'  # OpenMP 오류 해결을 위한 �
 def main():
     # 모델 평가 및 시각화
     # 이미지와 라벨 파일 경로 설정
-    test_image_dir = "C:/work_data-2/val_p_b/images"
-    label_dir = "C:/work_data-2/val_p_b/labels"
+    test_image_dir = "test/image/path"
+    label_dir = "test/label/path"
 
     # 장치 설정
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

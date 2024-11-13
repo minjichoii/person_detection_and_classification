@@ -21,9 +21,9 @@ def main():
 
     # 앉은 사진 삭제하기!
     # 이미지와 라벨 파일 경로 설정
-    image_dir = "/home/ivis/train_2/images/"
-    label_dir = "/home/ivis/train_2/labels/"
-    test_image_dir = "/home/ivis/val/images"
+    image_dir = "train/image/path"
+    label_dir = "train/label/path"
+    # test_image_dir = "test/image/path"
 
     # 하이퍼파라미터 설정
     num_epochs = 100
